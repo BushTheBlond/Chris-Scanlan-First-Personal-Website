@@ -1,0 +1,582 @@
+/* this is css comments*/
+
+/* Always start from top to bottom when doing styling */
+
+.body3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
+
+/* body {
+    background-image: linear-gradient(lightblue, rgb(87, 86, 84)); 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+} */
+
+
+
+h1{
+    color: rgb(4, 204, 127); 
+    font-size: 52px;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left
+}
+
+.logo {
+    background: url(https://pbs.twimg.com/profile_images/1143463669482827776/XjFrFVIY_400x400.png);
+    float: right
+}
+
+.background_hp{
+    background-image: linear-gradient(lightblue, rgb(87, 86, 84)); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.background_am{
+    background-image: linear-gradient(rgb(230, 173, 213), rgb(87, 86, 84)); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.background_cm{
+    background-image: linear-gradient(rgb(229, 230, 173), rgb(87, 86, 84)); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* 
+selector {----------------- For the above    elementtag---------for elements
+    property: value;-------
+} -------------------------
+*/
+
+/* 
+text-decoration-line: underline; ----underline
+*/
+
+/*          
+    *{                                   * before bracket = The whole thing
+        background-color: blue;
+    } 
+*/
+
+/* 
+.aboutme {
+    background-color: firebrick;
+}
+
+.classname{
+    property: value;  ------------ the same as above
+} 
+*/
+
+/* 
+border-image:
+linear-gradient( to right,
+rgb(214, 90, 1), 
+rgb(119, 13, 13)
+) 1; 
+*/
+
+.name {
+    font-size: 30px;
+    border: 3px double #333;
+    background-color: rgb(140, 240, 165);
+    color: #333;
+    border-radius: 7px;
+    width: 755px;
+    padding: 5px;
+    box-shadow: 4px 6px,
+        inset -0.1em 0.1em 0.1em rgb(58, 58, 58, 0.6);
+    text-shadow: 1px 1px 2px #abacaa,
+        -1px -1px 0 rgb(206, 204, 204);
+}
+
+.Welcome {
+    color:rgb(17, 167, 97);
+    background-image: repeating-linear-gradient(rgba(0, 105, 9, 0.5), rgba(0, 49, 209, 0.5)) ;
+    box-sizing: border-box;
+    border: 15px solid;
+    border-width: 8px 8px;
+    border-radius: 7px;
+    padding: 25px;
+    box-shadow: 0px 0px,
+        inset 0.2em -0.1em 0.2em rgb(58, 58, 58, 0.6);
+    border-image:
+        linear-gradient( to left,
+        rgba(0, 100, 8, 0.5), 
+        rgba(0, 50, 212, 0.5)
+        ) 1;
+}
+
+.create {
+    font-size: 30px;
+    border: 3px double #333;
+    background-color: rgb(131, 221, 158);
+    color: rgb(36, 49, 38);
+    border-radius: 7px;
+    padding: 5px;
+    width: 1630px;
+    box-shadow: 4px 6px,
+        inset -0.1em 0.1em 0.1em rgb(58, 58, 58, 0.6);
+    text-shadow: 1px 1px 2px #abacaa,
+        -1px -1px 0 rgb(206, 204, 204);
+}
+
+.Get {
+    background: 
+        linear-gradient(rgb(190, 183, 190, 0.3) 0 0) padding-box, 
+        linear-gradient(to right, #d87b00, #e79e00) border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    box-sizing: border-box;
+    border: 15px solid transparent;
+    border-width: 8px 8px;
+    border-radius: 7px;
+    padding: 25px;
+    box-shadow: 0px 0px,
+        inset 0.01em -0.01em 0.2em 0.1em rgb(58, 58, 58, 0.6);
+    }
+
+.About {
+    background: 
+        linear-gradient(rgba(69, 52, 165, 0.5) 0 0) padding-box, 
+        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    box-sizing: border-box;
+    border: 15px solid transparent;
+    border-width: 8px 8px;
+    border-radius: 7px;
+    padding: 25px;
+    width: 320px;
+    box-shadow: 0px 0px,
+        inset 0.1em -0.1em 0.2em rgb(58, 58, 58, 0.6);
+}
+
+
+.nav {
+    
+    font-size: 32px;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox-item {
+    width: 700px;
+    margin: 10x;
+    border: 3px solid #333;
+    background-color: #ffd7a3;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    height: 70px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
+
+/* .Chris {
+    color: #e97cf5;
+} */
+
+
+/*
+class = "center large"-----------------use a space inbetween classes
+
+.center {
+    font-size: 30px;-------------------will do both
+}
+.large{
+    font-size: 50px;
+} 
+*/
+
+/* 
+#idname{
+    property:value---------------------must be unique, only 1 id of each type
+} -------------------------------------cannot start with a number
+<p id="para1">Paragraph 1</p>----------In html
+#para1 {
+    color : blue;----------------------In CSS
+}
+---------------------------------------Classes = Flexible   ID = Rigid and defined
+*/
+/* 
+    *{
+        box-sizing: border-box;
+        padding : 25px 50px 75px 100px; ---Adding 4 values effects eveything individually, you can have atleast 1 value
+    } 
+*/
+/* 
+    img {
+        width: 100%;   -----------------Set the image to 100% of size
+    }
+*/
+/* 
+String (tomato), Hex (#ff6347), RGB values (255, 99, 71) --- color techniques
+color: tomato; , color: (#ff6347); color = rgb(205, 72, 41, 0.5); --- 4th color on RGB = opacity
+*/
+
+/* 
+.background {
+    background-image: url("background.jpg:") fixed center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} 
+*/
+
+/* .heading {
+    color: palevioletred;
+    background-color: aqua;
+    padding: 35;
+    margin: 75px;
+    opacity: 0.4;----------------------Will probably make the whole thing opaque if made its own value as shown here, so may want to assign to specfic color like box background
+} 
+*/
+
+/* .my_skill {
+    box-sizing: content-box;
+    background-color: rgb(159, 122, 194, 0.4);
+    border: 10px double rgba(5, 47, 82, 0.8);
+    border-width: 8px 8px;
+    border-radius: 7px;
+    padding: 25px;
+    width: 300px;
+    text-shadow: 1px 1px 2px #4b0111;
+        box-shadow: 3px 4px rgb(19, 8, 92),
+        inset 0.1em 0.1em rgb(49, 48, 48);
+} */
+
+.my_skill {
+    background: 
+        linear-gradient(rgb(172, 185, 185) 0 0) padding-box, 
+        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    color: rgb(25, 190, 149);
+    box-sizing: content-box;
+    border: 10px double;
+    border-width: 8px 8px;
+    border-radius: 7px;
+    padding: 25px;
+    width: 310px;
+    text-shadow: 4px 4px 5px #2b0021,
+        3px 3px 4px #3f3f3f,
+        1px 2px 2px #757474,
+        1px 1px 0,
+        1px -1px 0 rgb(161, 160, 160),
+        2px 1px 0 rgb(185, 185, 185);
+    box-shadow: 3px 4px rgb(19, 8, 92),
+        inset 0.1em 0.1em rgb(24, 24, 24);
+}
+
+
+.codenation {
+    background: 
+    linear-gradient(rgb(184, 221, 224) 0 0) padding-box, 
+    linear-gradient(to right, #064b0f, #4cfb35) border-box;
+    font-size: 30px;
+    color: #313149;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 45px 0;
+    box-shadow: 5px 7px,
+        inset 0.2em 0.2em rgb(27, 27, 27);
+}
+
+
+.my_skill_list {
+    background: 
+        linear-gradient(#ccc 0 0) padding-box, 
+        linear-gradient(to right, #4be902, #eefb35) border-box;
+    color: #313149;
+    padding: 10px;
+    border: 5px dotted;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px 0;
+    box-shadow: 5px 7px,
+        inset 0.2em 0.2em rgb(27, 27, 27);
+}
+
+.previous {
+    background: 
+        linear-gradient(rgb(150, 144, 144) 0 0) padding-box, 
+        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    color: #3e0183;
+    box-sizing: content-box;
+    border: 10px double;
+    border-width: 8px 8px;
+    border-radius: 7px;
+    padding: 25px;
+    width: 250px;
+    text-shadow: 1px 1px 2px #ada5a7,
+        1px 2px 2px #dddada,
+        1px 1px 0,
+        -1px -1px 0 rgb(161, 160, 160);
+    box-shadow: 3px 4px rgb(19, 8, 92),
+        inset 0.1em 0.1em rgb(24, 24, 24);
+}
+
+.previous-list {
+    background: 
+        linear-gradient(rgb(248, 214, 233, 0.7) 0 0) padding-box, 
+        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    color: #313149;
+    padding: 10px;
+    border: 5px dotted;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 35px 0;
+    box-shadow: 5px 7px,
+        inset 0.2em 0.2em rgb(27, 27, 27);
+}
+
+
+/* .selfimg1 {
+    float: left;
+} */
+
+.font1 {
+    color: rgb(4, 204, 127);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 5px #000000,
+        4px 4px 5px #084602,
+        6px 6px 7px #0829175b,
+        2px 2px 3px #272727,
+        1px 1px 0,
+        -1px -1px 0 rgb(160, 160, 160),
+        1px 1px 0 rgb(187, 187, 187);
+}
+
+.font2 {
+    color: rgb(201, 49, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 5px #000000,
+        4px 4px 5px #000000,
+        6px 6px 7px #3d3d3d,
+        2px 2px 3px #272727,
+        1px 1px 0,
+        -1px -1px 0 rgb(126, 126, 126),
+        1px 1px 0 rgb(126, 126, 126);
+}
+
+.font3 {
+    color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 5px #000000,
+        4px 4px 5px #000000,
+        6px 6px 7px #3d3d3d,
+        2px 2px 3px #272727,
+        1px 1px 0,
+        -1px -1px 0 rgb(126, 126, 126),
+        1px 1px 0 rgb(126, 126, 126);
+}
+
+
+.smallfont {
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 5px ;
+    background-color: gold;
+    border-radius: 800px;
+}
+
+.smallfont1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 3px ;
+    background-color: gold;
+    border-radius: 200px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#born {
+    font-size: 28px;
+    border: 3px double #333;
+    background-color: rgb(175, 170, 175);
+    color: rgb(64, 39, 70);
+    border-radius: 7px;
+    width: 855px;
+    padding: 5px;
+    box-shadow: 4px 6px,
+        inset -0.1em 0.1em 0.1em rgb(58, 58, 58, 0.6);
+    text-shadow: 1px 1px 2px #abacaa,
+        -1px -1px 0 rgb(206, 204, 204);
+}
+
+/* .smallfont after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 1px;
+} */
+
+/* fonts.google.com ----------------- gets fonts from google, unlike other sites is also easy to implement to html/CSS */
+/* import the font at the top of the css file with @import */
+
+.slefimg1{
+    border: 2px solid rgb(16, 35, 141);
+    background-color: #166e91;
+    width: 540px;
+    height: 805px;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow:
+    0px 1px,
+    1px 1px,
+    -1px -1px 0 #fff,
+    1px -1px 0 rgb(129, 126, 126),
+    -1px 1px 0 rgb(66, 66, 66),
+    1px 1px 0 rgb(8, 7, 7),
+    -2px -2px 0px #6e0365;
+}
+
+.btn1 {
+    background: 
+        linear-gradient(rgb(190, 183, 190, 0.3) 0 0) padding-box, 
+        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    color: #3e0183;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 5px 7px,
+        inset 0.1em 0.1em rgb(77, 76, 76);
+}
+
+.btn2 {
+    background: 
+        linear-gradient(rgb(190, 183, 190, 0.3) 0 0) padding-box, 
+        linear-gradient(to right, #095e10, #166e91) border-box;
+    color: #313149;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 5px 7px,
+        inset 0.1em 0.1em rgb(77, 76, 76);
+}
+.btn3 {
+    background: 
+        linear-gradient(rgb(190, 183, 190, 0.3) 0 0) padding-box, 
+        linear-gradient(to right, #d87b00, #e79e00) border-box;
+    color: #313149;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 5px 7px,
+        inset 0.1em 0.1em rgb(77, 76, 76);
+}
+
+/* .btn, a :hover {
+    color: skyblue;
+} */
+
+.vimeo {
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+/*
+.container {
+    display: flex;
+    min-height: 100vh; --------------minimum height
+
+    flex-direction: row; ------------defines flex direction, row is set by default so the following isn't necessary unless contradicitng rules
+    flex-direction: column; ---------allows you to make a list under a button press, listing options in a column list
+    flex-direction: row-reverse
+
+    flex-wrap: wrap------------------prevents squishing of properties by wrapping to additional lines
+    flex-wrap: nowrap
+    flex-wrap: wrap-reverse
+
+    flex-flow: row wrap -------------combines flex-direction and flex-wrap together
+
+    width: 33.3333%; ----------------tends to even out the space
+
+    justify-content: property;
+    justify-content: center;
+    justify-content:flex-start;
+    justify-content:flex-end;
+    justify-content:space-between;
+    justify-content:space-around;
+    justify-content:space-evenly;
+
+    align-items:flex-start-------top
+    align-items:flex-end---------bottom
+    align-items:center-----------center
+    align-items:baseline---------baseline of container
+    align-items:stretch ---------stetched to fit container
+    align-self: center ----------manipulates specified property, otherwise same as align-items
+
+    align-content: flex-start; ------You can use align-content to set how multiple lines are spaced apart from each other. This property takes the following values
+    align-content: flex-end; --------This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container
+    align-content: center; ----------When there is only one line, align-content has no effect.
+    align-content: space-between;
+    align-content: space-around;
+    align-content: stretch;
+
+    flex-direction: row: Items are placed the same as the text direction.
+    flex-direction: row-reverse: Items are placed opposite to the text direction.
+    flex-direction: column: Items are placed top to bottom.
+    flex-direction: column-reverse: Items are placed bottom to top.
+
+    order: -2,-1, 0, 1, 2 -------Order priority
+
+}
+*/
+
+/* 
+.pla{
+    flex:1
+    flex:2 -------------------------gives priority to whatever you assign
+    hover
+}
+*/
+
+/* Activity - create a nav div and apply flexbox syntax to it. Add containers to your webpages as you see fit to change item displays. */
+
+/* https://flexboxfroggy.com/ */
